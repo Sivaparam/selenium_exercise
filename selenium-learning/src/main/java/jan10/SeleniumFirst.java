@@ -14,6 +14,8 @@ public class SeleniumFirst {
 		driver.findElement(By.id("globalSearchInputField")).sendKeys("Levis Jeans");
 		driver.findElement(By.id("globalSearchInputField")).sendKeys(Keys.ENTER);
 		
+		driver.findElement(By.id("globalSearchInputField"));
+		
 
 	}
 }
