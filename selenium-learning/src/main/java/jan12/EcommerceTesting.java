@@ -47,6 +47,8 @@ public class EcommerceTesting {
 		List<WebElement> allProducts = driver.findElements(By.className("css-1ohx80u"));
 		WebElement prod = allProducts.get(1);
 		prod.click();
+		
+		
 // quick add to cart 
 //		WebElement addToBag = prod.findElement(By.id("cat-product-image-440624002"));
 //		if(addToBag !=null)
