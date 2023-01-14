@@ -9,7 +9,7 @@ public class TitleTest {
 		
 			WebDriver driver = new ChromeDriver();
 				
-			String title = "Amazon.com. Spend less. Smile more1";
+			String title = "Amazon.com. Spend less. Smile more.";
 				
 			//launch chrome and driver to url provided
 			driver.get("https://www.amazon.com/");
